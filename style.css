@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
 *{
        margin: 0;
        padding: 0;
+       font-family: 'Open Sans', sans-serif;
+       font-family: 'Work Sans', sans-serif;
 }
 .pri-btn{
        color: #FFF;
@@ -10,10 +14,9 @@
        border: none;
        background-color: #FF900E;
        border-radius: 8px;
-
 }
+/* header section start */
 header{
-       /* max-width: 800px; */
        background-color:rgba(255, 144, 14, 0.10);
        padding: 50px 240px;
 }
@@ -21,14 +24,12 @@ header{
        display: flex;
        justify-content: space-between;
        align-items: center;
-       margin-bottom: 4rem;
-      
+       margin-bottom: 4rem;  
 }
 .nav-titel{
        color: var(--dark-01, #131313);
        font-size: 45px;
-       font-weight: 700;
-      
+       font-weight: 700; 
 }
 .nav-item ul{
        display: flex;
@@ -38,12 +39,13 @@ header{
       font-weight: 500;
       font-size: 1rem;
        list-style: none;
-       /* text-decoration: none; */
 }
 .nav-item a{
        text-decoration: none;
        color: var(--dark-02, #424242);
 }
+
+/* banner items start */
 .baner-items{
        text-align: center;
        margin: 0 auto;
@@ -87,7 +89,6 @@ header{
        margin: 40px;
 }
 .team-content-titel{
-       
        font-size: 40px;
        font-weight: 500;
 }
@@ -102,8 +103,7 @@ header{
        color: var(--dark-03, #727272);
 }
 .our{
-       color: var(--dark-01, #131313);   font-weight: 700;
-       
+       color: var(--dark-01, #131313);   font-weight: 700;  
 }
 .word{
        color: #FF900E;
@@ -111,7 +111,29 @@ header{
 }
 /* second section start */
 .features-img img{
-       width: 100%;
+       width: 120%;
+       margin-left: 30px;
+
+}
+.ten-years{
+       border-radius: 8px;
+       background-color: #FF900E;
+       width: 220px;
+       padding: 20px;
+       position: relative;
+       bottom: 50px;
+}
+.ten-years h2{
+       color: #FFF;
+       text-align: center;
+       font-size: 45px;
+       font-weight: 500;
+}
+.ten-years p{
+       color: #FFF;
+       font-size: 20px;
+       font-weight: 300;
+       text-align: center;
 }
 .features-section{
        display: flex;
@@ -144,7 +166,6 @@ header{
 .features-titel{
        color: var(--dark-01, #131313);font-size: 40px;
        font-weight: 600;
-
 }
 /* card section */
 .card-section{
@@ -171,9 +192,9 @@ header{
        text-align: center;
        padding: 20px 10px;
        border-radius: 4px;
-       margin-top: 2.5rem;
-      
+       margin-top: 2.5rem;   
 }
+
 /* footer start */
 footer{
        padding: 20px 240px;
@@ -211,7 +232,7 @@ footer{
        font-size: 8px;
        font-weight: 200;
 }
-  
+  /* mobile devise responsive */
 
 @media screen and (max-width:576px) {
        .navbar ,.features-section ,.spons-logo{
@@ -241,6 +262,7 @@ footer{
        }
        .features-img img{
               width:100%;
+              margin: 1px;
        }
        .card-box{
               display: grid;
