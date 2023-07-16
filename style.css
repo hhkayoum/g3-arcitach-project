@@ -18,7 +18,8 @@
 /* header section start */
 header{
        background-color:rgba(255, 144, 14, 0.10);
-       padding: 50px 240px;
+       /* padding: 50px 240px; */
+       padding: 50px 150px;
 }
 .navbar{
        display: flex;
@@ -75,7 +76,8 @@ header{
        display: flex;
        justify-content: space-between;
        align-items: center;
-       padding: 20px 240px;
+       /* padding: 20px 240px; */
+       padding: 50px 150px;
 }
 .team-img{
        display: grid;
@@ -141,7 +143,8 @@ header{
        align-items: center;
        margin-top: 30px;
        gap: 30px;
-       padding: 20px 240px;
+       /* padding: 20px 240px; */
+       padding: 50px 180px;
 }
 .features-titel{
        color: var(--dark-01, #131313);
@@ -169,7 +172,8 @@ header{
 }
 /* card section */
 .card-section{
-       padding: 20px 240px;
+       /* padding: 20px 240px; */
+       padding: 50px 150px;
 }
 .card-box{
        display: flex;
@@ -197,7 +201,8 @@ header{
 
 /* footer start */
 footer{
-       padding: 20px 240px;
+       /* padding: 20px 240px; */
+       padding: 50px 150px;
 }
 .footer-titel{
        color: var(--dark-01, #131313);font-size: 40px;
